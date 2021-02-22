@@ -1,0 +1,48 @@
+body {
+    background: rgb(184, 71, 71) url(solbackground.jpg); /* Фоновый цвет и фоновый рисунок*/
+    color: rgb(235, 192, 192); /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-size: 100%
+}
+  #header {
+     margin-top: 0 auto; /* Отступ сверху */
+      font-size: 2.2em; /* Размер текста */
+      text-align: 0 auto; /* Выравнивание по центру */
+      padding: 10px; /* Отступы вокруг текста */
+      background: #ac446f; /* Цвет фона шапки */
+      color: #ffe; /* Цвет текста */
+      width: 1020px;
+     }
+
+     #container {
+      width: 750px; /* Ширина слоя */
+      margin-right: auto; /* Отступ справа */
+      margin-left: auto; /* Отступ слева */
+      margin: 0 auto;
+      background: #ca5e5e; /* Цвет фона левой колонки */
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+    
+     #sidebar {
+        float: left;
+        margin-right: 20px;
+        width: 200px;
+        font-size: 1.5em;
+      margin-top: 10px; 
+      padding: 5px; /* Отступы вокруг текста */
+
+     }
+     #content {
+      margin-left: 250px; /* Отступ слева */
+      width: 750px;
+      padding: 20px; /* Поля вокруг текста */
+      background: rgb(93, 8, 70); /* Цвет фона правой колонки */
+      margin: right 200px;
+     }
+     #footer {
+      background: #6b0730; /* Цвет фона подвала */
+      color: #fff; /* Цвет текста */
+      padding: 5px; /* Отступы вокруг текста */
+      clear: left; /* Отменяем действие float */
+     }
